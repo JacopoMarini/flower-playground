@@ -1,0 +1,47 @@
+{
+    "type": "component",
+    "name": "Divider",
+    "description": "Divider Component",
+    "category": "Components",
+    "editing": [
+      {
+        "type": "Switch",
+        "id": "dashed",
+        "label": "Dashed"
+      },
+      {
+        "type": "ButtonGroup",
+        "id": "orientation",
+        "label": "Orientation",
+        "options": [
+          {
+            "label": "Center",
+            "value": "center"
+          },
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label":  "Right" ,
+            "value":  "right" 
+          }
+        ]
+      },
+      {
+        "type": "ButtonGroup",
+        "id": "direction",
+        "label": "Direction",
+        "options": [
+          {
+            "label": "Horizontal",
+            "value": "horizontal"
+          },
+          {
+            "label": "Vertical",
+            "value": "vertical"
+          }
+        ]
+      }
+    ]
+  }

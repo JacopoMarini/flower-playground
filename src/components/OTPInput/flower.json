@@ -1,0 +1,53 @@
+{
+  "type": "component",
+  "name": "OTPInput",
+  "description": "OTPInput Component",
+  "category": "Components",
+  "editing": [
+    {
+      "type": "Input",
+      "id": "id",
+      "label": "Field ID"
+    },
+    {
+      "type": "Input",
+      "id": "label",
+      "label": "Label"
+    },
+    {
+      "type": "Rules",
+      "id": "rules",
+      "label": "Regole di visualizzazione"
+    },
+    {
+      "type": "Switch",
+      "id": "alwaysDisplay",
+      "default": false,
+      "label": "Mostralo disabilitato"
+    },
+    {
+      "type": "Switch",
+      "id": "destroyValue",
+      "label": "Destroy value on remove field"
+    },
+    {
+      "type": "List",
+      "id": "validate",
+      "emptyState": "Add a new validation rule",
+      "item": {
+        "children": [
+          {
+            "type": "Input",
+            "id": "message",
+            "label": "Message"
+          },
+          {
+            "type": "Rules",
+            "id": "rules",
+            "title": "Regole di validazione"
+          }
+        ]
+      }
+    }
+  ]
+}

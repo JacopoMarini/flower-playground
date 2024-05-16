@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Flower from "@stackhouseos/flower-react";
+import { FlowerNode } from "@stackhouseos/flower-react";
+import { FlowerRoute } from "@stackhouseos/flower-react";
+import { Stack } from "./components/Stack";
+import { Input } from "./components/Input";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Flower name="flower-playground">
+        <FlowerRoute id="Start" to={{ "step-1": null }} />
+
+        <FlowerNode id="step-1">
+          <Stack
+            direction="column"
+            justifyContent="start"
+            alignItems="start"
+            gap="32"
+          >
+            <Input
+              alwaysDisplay={false}
+              id="name"
+              label="Name"
+              placeholder="Name"
+            />
+            <Input
+              alwaysDisplay={false}
+              id="email"
+              label="Email"
+              placeholder="Email"
+            />
+            <Input
+              alwaysDisplay={false}
+              id="password"
+              label="Password"
+              placeholder="Password"
+              variant="password"
+            />
+          </Stack>
+        </FlowerNode>
+      </Flower>
     </div>
   );
 }
-
 export default App;

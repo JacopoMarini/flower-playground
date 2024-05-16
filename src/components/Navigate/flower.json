@@ -1,0 +1,19 @@
+{
+    "type": "component",
+    "name": "Navigate",
+    "description": "Navigate Component",
+    "category": "Actions Components",
+    "isAction": true,
+    "editing": [
+      {
+        "type": "Input",
+        "id": "path",
+        "label": "Path"
+      },
+      {
+        "type": "Switch",
+        "id": "replace",
+        "label": "Replace"
+      }
+    ]
+  }

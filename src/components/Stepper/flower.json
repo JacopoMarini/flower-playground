@@ -1,0 +1,58 @@
+{
+    "type": "component",
+    "name": "Stepper",
+    "description": "Stepper Component",
+    "category": "Components",
+    "editing": [
+      {
+        "type": "Input",
+        "id": "current",
+        "label": "Current Step"
+      },
+      {
+        "type": "List",
+        "id": "items",
+        "emptyState": "Add a step",
+        "item": {
+          "children": [
+            {
+              "type": "Input",
+              "id": "title",
+              "label": "Title"
+            },
+            {
+              "type": "Input",
+              "id": "description",
+              "label": "Description"
+            },
+            {
+              "type": "Input",
+              "id": "subTitle",
+              "label": "Subtitle"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ButtonGroup",
+        "id": "direction",
+        "label": "Allineamento",
+        "default": "horizontal",
+        "options": [
+          {
+            "label": "Verticale",
+            "value": "vertical"
+          },
+          {
+            "label": "Orizzontale",
+            "value": "horizontal"
+          }
+        ]
+      },
+      {
+        "type": "Rules",
+        "id": "rules",
+        "label": "Regole di visualizzazione"
+      }
+    ]
+  }

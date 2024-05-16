@@ -1,0 +1,30 @@
+{
+    "type": "component",
+    "name": "MoveIntoParent",
+    "description": "MoveIntoParent Component",
+    "category": "Actions Components",
+    "isAction": true,
+    "editing": [
+      {
+        "type": "ButtonGroup",
+        "id": "actionType",
+        "label": "Tipologia azione",
+        "default": "onNext",
+        "options": [
+          {
+            "label": "Go next",
+            "value": "onNext"
+          },
+          {
+            "label": "Go prev",
+            "value": "onPrev"
+          }
+        ]
+      },
+      {
+        "type": "Input",
+        "id": "destinationFlow",
+        "label": "Flow di destinazione"
+      }
+    ]
+  }

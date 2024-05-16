@@ -1,0 +1,126 @@
+{
+  "type": "component",
+  "name": "Stack",
+  "description": "Stack Component",
+  "category": "Components",
+  "editing": [
+      {
+          "type": "Select",
+          "id": "direction",
+          "label": "Direction",
+          "default": "row",
+          "options": [
+              {
+                  "name": "Row",
+                  "value": "row"
+              },
+              {
+                  "name": "Column",
+                  "value": "column"
+              },
+              {
+                  "name": "Row Reverse",
+                  "value": "row-reverse"
+              },
+              {
+                  "name": "Columns Reverse",
+                  "value": "columns-reverse"
+              }
+          ]
+      },
+      {
+          "type": "Select",
+          "id": "justifyContent",
+          "label": "Justify Content",
+          "default": "start",
+          "options": [
+              {
+                  "name": "Start",
+                  "value": "start"
+              },
+              {
+                  "name": "Center",
+                  "value": "center"
+              },
+              {
+                  "name": "End",
+                  "value": "end"
+              },
+              {
+                  "name": "Space Between",
+                  "value": "space-between"
+              },
+              {
+                  "name": "Space Around",
+                  "value": "space-around"
+              },
+              {
+                  "name": "Space Evenly",
+                  "value": "space-evenly"
+              }
+          ]
+      },
+      {
+          "type": "Select",
+          "id": "alignItems",
+          "label": "Align Items",
+          "default": "start",
+          "options": [
+              {
+                  "name": "Start",
+                  "value": "start"
+              },
+              {
+                  "name": "Center",
+                  "value": "center"
+              },
+              {
+                  "name": "End",
+                  "value": "end"
+              },
+              {
+                  "name": "Space Between",
+                  "value": "space-between"
+              },
+              {
+                  "name": "Space Around",
+                  "value": "space-around"
+              },
+              {
+                  "name": "Space Evenly",
+                  "value": "space-evenly"
+              }
+          ]
+      },
+      {
+          "type": "Input",
+          "id": "gap",
+          "label": "Gap"
+      },
+      {
+          "type": "Input",
+          "id": "rowGap",
+          "label": "Row Gap"
+      },
+      {
+          "type": "Input",
+          "id": "columnGap",
+          "label": "Column Gap"
+      },
+      {
+          "type": "Input",
+          "id": "height",
+          "label": "Height"
+      },
+      {
+          "type": "Input",
+          "id": "width",
+          "label": "Width"
+      },
+      {
+          "type": "Rules",
+          "id": "rules",
+          "label": "Regole di visualizzazione"
+      }
+  ]
+}

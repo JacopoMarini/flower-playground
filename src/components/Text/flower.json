@@ -1,0 +1,85 @@
+{
+    "type": "component",
+    "name": "Text",
+    "description": "Text Component",
+    "category": "Components",
+    "editing": [
+      {
+        "type": "Input",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "Select",
+        "id": "variant",
+        "label": "Variant",
+        "options": [
+            {
+                "label":"h1",
+                "value":"h1"
+            },
+            {
+                "label":"h2",
+                "value":"h2"
+            },
+            {
+                "label":"h3",
+                "value":"h3"
+            },
+            {
+                "label":"h4",
+                "value":"h4"
+            },
+            {
+                "label":"h5",
+                "value":"h5"
+            },
+            {
+                "label":"h6",
+                "value":"h6"
+            },
+            {
+                "label":"p",
+                "value":"p"
+            }
+        ]
+      },
+      {
+        "type": "Select",
+        "id": "color",
+        "label": "Color",
+        "default": "primary",
+        "options": [
+            {
+                "label":"Primary",
+                "value":"primary"
+            },
+            {
+                "label":"Secondary",
+                "value":"secondary"
+            },
+            {
+                "label":"Success",
+                "value":"success"
+            },
+            {
+                "label":"Error",
+                "value":"error"
+            },
+            {
+                "label":"Info",
+                "value":"info"
+            },
+            {
+                "label":"Warning",
+                "value":"warning"
+            }
+        ]
+      },
+      {
+        "type": "Rules",
+        "id": "rules",
+        "label": "Regole di visualizzazione"
+      }
+    ]
+  }

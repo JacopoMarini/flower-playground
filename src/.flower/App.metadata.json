@@ -1,0 +1,46 @@
+{
+  "//": "Do not publish this file",
+  "type": "flow",
+  "name": "flower-playground",
+  "elements": {
+    "Start": {
+      "id": "Start",
+      "position": {
+        "x": -18.160025820341417,
+        "y": 81.98928746387327
+      },
+      "animated": false,
+      "type": "FlowerRoute",
+      "_metadata": {
+        "name": "FlowerRoute",
+        "widgets": []
+      }
+    },
+    "step-1": {
+      "id": "step-1",
+      "position": {
+        "x": -19.285192560299834,
+        "y": 245.48141987952926
+      },
+      "animated": false,
+      "type": "FlowerNode",
+      "_metadata": {
+        "name": "FlowerNode",
+        "widgets": []
+      }
+    },
+    "reactflow__edge-Startprimary-step-1primary": {
+      "id": "reactflow__edge-Startprimary-step-1primary",
+      "label": "+",
+      "animated": false,
+      "style": {
+        "stroke": "#97A3AC"
+      },
+      "labelStyle": {
+        "fill": "#97A3AC"
+      },
+      "_metadata": {}
+    }
+  },
+  "apps": []
+}

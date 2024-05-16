@@ -1,0 +1,78 @@
+{
+  "type": "component",
+  "name": "Button",
+  "description": "Button Component",
+  "category": "Components",
+  "editing": [
+    {
+      "type": "Input",
+      "id": "title",
+      "label": "Titolo"
+    },
+    {
+      "type": "Select",
+      "id": "actionType",
+      "label": "Azione",
+      "default": "next",
+      "options": [
+        {
+          "name": "Step specifico",
+          "value": "node"
+        },
+        {
+          "name": "Step precedente",
+          "value": "prev"
+        },
+        {
+          "name": "Step successivo",
+          "value": "next"
+        },
+        {
+          "name": "Step specifico precedente",
+          "value": "prevNode"
+        }
+      ]
+    },
+    {
+      "rules": [
+        {
+          "actionType": "node"
+        }
+      ],
+      "type": "SelectNode",
+      "id": "nodeId",
+      "label": "Step"
+    },
+    {
+      "type": "ButtonGroup",
+      "id": "variant",
+      "label": "Tipologia bottone",
+      "default": "primary",
+      "options": [
+        {
+          "label": "Primary",
+          "value": "primary"
+        },
+        {
+          "label": "Default",
+          "value": "default"
+        },
+        {
+          "label": "Link",
+          "value": "link"
+        }
+      ]
+    },
+    {
+      "type": "Switch",
+      "id": "alwaysDisplay",
+      "default": false,
+      "label": "Mostra anche se non valido"
+    },
+    {
+      "type": "Rules",
+      "id": "rules",
+      "label": "Regole di visualizzazione"
+    }
+  ]
+}
